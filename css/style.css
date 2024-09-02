@@ -1,0 +1,43 @@
+.carousel-item{
+    height: 550px;
+}
+.carousel-caption{
+    position: abosolute;
+    top: 50px;
+    left: 100px;
+    color: black;
+    text-align: left;
+    width: 40%;
+}
+.icon{
+    font-size: 3rem;
+}
+.card-img-top{
+    height: 150px;
+}
+.text-justify{
+    text-align: justify;
+}
+@media only screen and (max-width:786px){
+    .carousel-item{
+        height:auto;
+    }
+    .carousel-caption{
+        position: abosolute;
+        top: 5px;
+        left: 10px;
+        color: black;
+        text-align: left;
+        width: 100%;
+    }
+    .carousel-caption{
+        font-size: 2rem;
+    }
+    .icon{
+        font-size: 1rem;
+    }
+    .card-img-top{
+        height: 220px;
+        width: 100;
+    }
+}
